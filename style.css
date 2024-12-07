@@ -1,0 +1,474 @@
+/* Navigation Bar Styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #333; /* Background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Hover effect background */
+    color: #00aaff; /* Hover effect text color */
+}
+
+
+.navbar a:hover {
+    background-color: #555; /* Hover effect background */
+    color: #00aaff; /* Hover effect text color */
+}
+
+ /* Container for page-wide padding */
+.main-container {
+    max-width: 1200px; /* Limit the maximum width for a centered effect */
+    margin: 0 auto;    /* Center the container */
+    padding: 2rem 3rem; /* Add padding around the entire page */
+    background-color: #222; /* Ensure background color is consistent */
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111; /* Slightly darker background outside container */
+}
+/* General Section Title Styling */
+/* General Section Title Styling for all h2 elements */
+
+
+/* Additional styling remains the same as in your previous CSS */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #222;
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+/* Circular Icon Container Styling */
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.icon-circle:hover {
+    transform: translateY(-5px) scale(1.1); /* Move up and slightly enlarge on hover */
+    background-color: #0077b5; /* Change color on hover */
+}
+
+.icon-circle svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.icon-circle:hover svg {
+    transform: rotate(10deg); /* Slight rotation on hover */
+}
+
+/* Contact Info Styling */
+/* General Contact Section Styling */
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #222;
+}
+
+/* Name and Title Styling */
+.left-content h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.left-content p {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0.3rem 0;
+}
+
+/* Circular Icon Styling */
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(32, 7, 7, 0.3); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-circle:hover {
+    transform: translateY(-5px) scale(1.1);
+    background-color: #0077b5;
+}
+
+/* Icon Inside Circle */
+.icon-circle svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* General Contact Section Styling */
+.contact-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #222;
+}
+
+/* Name and Title Styling */
+.left-content h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.left-content p {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0.3rem 0;
+}
+
+/* Right Content - Icons and Contact Info */
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Circular Icon Styling */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-circle:hover {
+    transform: translateY(-5px) scale(1.1);
+    background-color: #0077b5;
+}
+
+/* Icon Inside Circle */
+.icon-circle svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    text-align: right;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #0077b5;
+    text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+    padding: 2rem 3rem;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the About section */
+}
+
+#about h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the image and text */
+    gap: 1.5rem; /* Add spacing between the image and text */
+    margin-top: 1rem;
+    text-align: left; /* Center align text */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.about-text {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px; /* Adjusts text width */
+}
+
+
+.about-text p,
+.about-text ul {
+    margin: 0 0 1rem 0;
+}
+
+.about-text ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.about-text li {
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Education Section */
+#education {
+    padding: 2rem 10%;
+    text-align: left;
+}
+
+.section-divider {
+    border-top: 1px dashed #555;
+    margin: 1rem 0;
+}
+
+#education h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.education-entry {
+    margin-bottom: 2rem;
+}
+
+.education-entry h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.degree {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0.2rem 0;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0.2rem 0;
+}
+
+.description {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    max-width: 800px;
+}
+
+/* Research Experiences Section */
+#research-experiences {
+    padding: 2rem 10%;
+    text-align: left;
+}
+
+/* Section Title Styling */
+#research-experiences h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Research Details */
+.research-details h3 {
+    color: #fff; /* Make "Sharif University of Technology" white */
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.research-details .date {
+    font-size: 0.9rem;
+    color: #888; /* Keep dates subtle in gray */
+}
+
+/* Descriptions */
+.description,
+.research-subentry p {
+    color: #ccc; /* Gray color for descriptions */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+
+/* Subsection Titles (e.g., Depth Estimation, Vision-Language Models) */
+.research-subentry h4 {
+    color: #fff; /* White for titles */
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+.description a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+/* General Section Styling */
+section {
+    padding: 2rem 10%; /* Consistent padding for all sections */
+    margin-bottom: 2rem; /* Spacing between sections */
+}
+
+/* Projects Section */
+/* General Section Styling */
+section {
+    padding: 2rem 10%; /* Keep consistent padding for all sections */
+    margin-bottom: 2rem; /* Consistent spacing between sections */
+}
+
+/* Projects Section */
+#projects {
+    text-align: left; /* Align text to the left */
+    padding: 2rem 10%; /* Match padding with other sections */
+}
+
+#projects h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center; /* Keep the title centered */
+}
+
+.project-entry {
+    margin-bottom: 1.5rem; /* Reduced spacing between project entries */
+    text-align: left; /* Align project entries to the left */
+}
+
+.project-entry h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.project-entry p {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* A Little More About Me Section */
+/* A Little More About Me Section */
+#A-Little-More-About-Me {
+    padding: 2rem 10%; /* Match padding with other sections */
+    text-align: left; /* Align content text to the left */
+}
+
+#A-Little-More-About-Me h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center; /* Keep the title centered */
+}
+
+#A-Little-More-About-Me .description {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px; /* Consistent with other sections */
+    margin: 0 auto; /* Center the description block */
+    padding: 0; /* Remove extra padding */
+    text-align: left; /* Ensure the text is aligned to the left */
+}
